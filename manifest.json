@@ -1,0 +1,16 @@
+{
+  "name": "Page Visibility Test",
+  "scope": "/",
+  "display": "standalone",
+  "start_url": "./index.html",
+  "theme_color": "#b859ed",
+  "description": "A sample PWA to test Page Visibility API.",
+  "background_color": "#000000",
+  "icons": [
+    {
+      "src": "./logo.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ]
+}
