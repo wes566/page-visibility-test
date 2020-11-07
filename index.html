@@ -25,8 +25,18 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
+
         padding: 28px;
         box-sizing: border-box;
+      }
+
+      body > * {
+        max-width: 1024px;
+        margin: 0 auto;
+      }
+
+      h2 {
+        font-size: 1.2em;
       }
     </style>
 
@@ -38,6 +48,7 @@
       Testing out the Page Visibility API in a PWA. Install/add this PWA to your
       home screen. Then switch away from it and back. This page will log when
       the Page Visibility events are fired.
+      <a href="https://github.com/wes566/page-visibility-test">Source here</a>.
     </h2>
 
     <div id="log"></div>
